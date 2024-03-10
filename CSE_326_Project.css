@@ -1,0 +1,328 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box; 
+}
+.main{
+    width: 100%;
+    background-image:url(ANIME_TRAIN.png);
+    background-position: center;
+    background-size: cover;
+    height: 75vh;
+    border-radius: 25px;
+}
+.navbar{
+    width:100%;
+    height:120px;
+    line-height:120px;
+    padding:0px 100px;
+    position:fixed;
+    background-size:cover;
+    border-radius:30px;
+    margin:10px;
+}
+.navbar ul{
+    float:right;
+
+}
+.navbar li{
+    display:inline-block;
+    list-style:none;
+    padding:5px;
+}
+.navbar li a{
+    font-family:'Times New Roman', Times, serif;
+    font-size:15px;
+    text-decoration:none;
+    color:white;
+    font-weight:bolder;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+    border-radius:10px;
+}
+.navbar li:hover{
+    box-shadow:#000;
+    transition:all 0.8s ease 0s;
+    transform:scale(1.1);
+    
+}
+
+.logo{
+    border-radius:200px;
+    height:120px;
+    width:120px;
+    float:left;
+}
+.icon-img{
+    border-radius:200px;
+    height:120px;
+    width:120px;
+    float:left;
+}
+.table{
+    width:400px;
+    height:420px;
+    background:linear-gradient(to top,rgba(238, 233, 233, 0.4)50%,rgba(235, 229, 229, 0.4)50%);
+    position:absolute;
+    top:150px;
+    left:150px;
+    border-radius:10px;
+    padding:25px;
+    text-align:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    font-size:13px;
+}
+.table h3{
+    font-size:140%;
+}
+
+.FORM1{
+    width:100%;
+}
+@media(max-width:768px){
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.table h3{
+    text-align:center;
+}
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(
+      to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0)
+    );
+    box-shadow:
+      inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+      inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+  }
+  
+  .styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+    transform:scale(1.1)
+  }
+  
+  .styled:active {
+    box-shadow:
+      inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+      inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+  }
+  /*.navbar2{
+    width:100%;
+    height:90px;
+    margin-top:15vh;
+    padding:0px 100px;
+    background-size:cover;
+    background-image: url(YELLOW_WAVE.jpg);
+    border-radius:10px;
+    opacity:0.4;
+
+  }*/
+.main2{
+    align-items:center;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    background-image: url(YELLOW_WAVY.avif);
+    background-size: cover;
+    margin-top:5vh;
+    border-radius:20px;
+}
+.header{
+    margin-top:29vh;
+}
+.row_01,.holiday_tab{
+    display:flex;
+    justify-content: center;
+}
+.icon2,.tab{
+    padding:0px 70px;
+}
+.icon2:hover{
+    .icon-img{
+        transform:scale(1.2)
+    }
+    .icon-bar{
+        visibility: hidden;
+    }
+}
+.icon-bar{
+    font-weight:bold;
+    font-size:80%;
+    text-align:center;
+}
+.header h1{
+    font-size:38px;
+}
+a{
+    padding: 10px;
+}
+.indigo{
+    background-image:url(DARK_BLUE.jpg);
+    background-size:cover;
+    padding:10px;
+}
+.video.video1{
+    margin-top:20vh;
+    margin-bottom: 15vh;
+    
+}
+.video{
+    background-color:#fff;
+    margin-top:20vh;
+    margin-bottom:20vh;
+    padding:40px;
+    margin-right:56vh;
+    margin-left:49vh;
+    border-radius:20px;
+    box-shadow:10px 5px 5px black;
+}
+video{
+    margin-left:6vh;
+}
+.HOLIDAY h1{
+    text-align: center;
+    color:#000;
+    font-size:35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.tab{
+    background-color: #fff;
+    margin:25px;
+    width:350px;
+    padding:0px;
+}
+.tab h3{
+    text-align:center;
+}
+.tab p{
+    padding:20px;
+}
+.tab a{
+    text-decoration:none;
+    color:indigo;
+    font-weight:bold;
+}
+.tab-img{
+    background-color:aqua;
+    height:200px;
+    margin-bottom:3vh;
+}
+.image{
+    background-image: url(Maharajas__Express.avif);
+    background-size: cover;
+}
+.image1{
+    background-image: url(INTERNATIONAL_PACKAGE.jpg);
+    background-size: cover;
+}
+.image2{
+    background-image: url(NATIONAL\ PACKAGES.webp);
+    background-size: cover;
+}
+.HOLIDAY{
+    background-color:white;
+    padding:20px;
+    border-radius:100px;
+}
+.social,.logos1{
+    display: flex;
+    justify-content: center;
+}
+.logo-bar img{
+    height:50px;
+    width:50px;
+    padding:5px;
+    border-radius: 100px;
+}
+.social{
+    background-image: url(YELLOW_GRADIENT.avif);
+    background-size: cover;
+    margin-top:25vh;
+}
+.social .logos{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:bold;
+    margin-top:10px;
+}
+.photo{
+    background-image: url(footer-page.png);
+    background-size: cover;
+    width:100%;
+    height:80px;
+}
+.logo-bar:hover{
+    transform: scale(1.1);
+}
+.section{
+    display: flex;
+    background-image:url(YELLOW_WAVE.jpg);
+    background-size: cover;
+    padding-left:60px;
+}
+
+.section .features p{
+    font-weight:bold;
+    padding-right:10vh;
+}
+.payment{
+    display:flex;
+}
+.copyright{
+    margin-left:40px;
+}
+.copyright a{
+    text-decoration:none;
+    color:darkblue;
+    font-weight:bold;
+    transform:scale(1.1);
+}
+.photo{
+    padding-left:10vh;
+}
+.features{
+    padding-right:30px;
+    align-items:center;
+    font-weight: bold;
+
+}
+.down img{
+    height:80px;
+    width:30%;
+    padding:5px;
+    border-radius: 100px;   
+    margin-bottom:-10px; 
+    
+
+}
+.down .singer{
+    width:20%;
+    height:20%;
+    margin-left:30px;
+}
+.app .down{
+    display:flex;
+}
+.down{
+    display: flex;
+}
+
+
+
+
+
+

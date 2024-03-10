@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Railway Reservation System</title>
+        <link rel="stylesheet" href="CSE_326_Project.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <section class="indigo">
+            <section>
+                <div class="main">
+                    <div class="navbar">
+                        <div class="icon">
+                            <img class="logo" src="YATRA_02.png" alt="Website Logo">
+                        </div>
+                        <div class="menu">
+                            <ul>
+                                <li><a href="CSE_326_Project.html">HOME</a></li>
+                                <li><a href="meals.html">MEALS</a></li>
+                                <li><a href="Holiday Pacakges/Packages.html">HOLIDAY PACKAGES</a></li>
+                                <li><a href="Service/Service.html">SERVICE AT STATION</a></li>
+                                <li><a href="Contact.html">CONTACT US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="table">
+                        <h3>BOOK TICKET HERE</h3><br>
+                        <form class="FORM1" action="CSE_326_Project.php" method="post">
+                            <label for="DEPARTURE">FROM:</label><br>
+                            <input type="text" id="FROM" name="departure"><br><br><br>
+                        
+                            <label for="ARRIVAL">TO:</label><br>
+                            <input type="text" id="TO" name="arrival" required><br><br><br>
+                        
+                            <label for="date">DATE:</label><br>
+                            <input type="date" id="date" name="date" required><br><br><br>
+                        
+                            <label for="passengers">NUMBER OF PASSENGERS:</label>
+                            <input type="number" id="passengers" name="passengers" min="1" required><br><br><br>
+                        
+                            <label for="classes">ALL CLASSES:</label>
+                            <select id="class" name="class">
+                                <option value="Select">Select</option>
+                                <option value="train1">FIRST AC</option>
+                                <option value="train2">SECOND AC</option>
+                                <option value="train3">THIRD AC</option>
+                                <option value="train4">SLEEPER</option>
+                                <option value="train5">Others</option>
+                            </select><br><br><br>
+                            <input class="styled" type="button" value="Search" />
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <section class="main2">
+                <div class="header">
+                    <h1>Have you not found the right one?</h1>
+                    <h1>Find a service suitable for you here.</h1><br><br><br><br><br>
+                </div>
+                <div class="row_01">
+                    <div class="icon2">
+                        <img class="icon-img" src="HOLIDAY.jpg">
+                        <p class="icon-bar">HOLIDAY PACKAGES</p>
+                    </div>
+                    <div class="icon2">
+                        <img class="icon-img" src="TOURIST_TRAIN.jpg">
+                        <p class="icon-bar">TOURIST TRAIN</p>
+                    </div>
+                    <div class="icon2">
+                        <img class="icon-img" src="TRAIN_01.jpg">
+                        <p class="icon-bar">HILL RAILWAYS</p>
+                    </div>
+                </div><br>
+                <div class="row_01">
+                    <div class="icon2">
+                        <img class="icon-img" src="CHARTER_TRAIN.jpg">
+                        <p class="icon-bar">CHARTER TRAIN</p>
+                    </div>
+                    <div class="icon2">
+                        <img class="icon-img" src="STATISTICS_GRAPH.jpg">
+                        <p class="icon-bar">RAIL YATRI</p>
+                    </div>
+                    <div class="icon2">
+                        <img class="icon-img" src="CATERING.jpg">
+                        <p class="icon-bar">E-CATERING</p>
+                    </div>
+                </div><br><br><br><br><br><br>
+            </section>
+            <section class="video">
+                <div class="video1">
+                    <video controls autoplay src="TRAIN_VIDEO.mp4" muted loop width="450px">
+                        <source src="TRAIN_VIDEO.mp4">
+                    </video>
+                </div>
+            </section>
+            <section class="HOLIDAY">
+                <h1>HOLIDAYS</h1>
+            </section><br><br><br><br><br><br>
+            <section class="holiday_tab">
+                <div class="tab">
+                    <div class="tab-img image"></div>
+                    <h3 class="heading">TOURIST TRAINS</h3><br>
+                    <p class="para">Redefining Royalty, Luxury and Comfort, Maharajas' express takes you on a sojourn to the era of bygone stately splendour of princely states. Sylvan furnishings, elegant ambience and modern amenities are amalgamated for an “Experience Unsurpassed”. It has been a winner of “World’s Leading Luxury train” by World Travel Awards consecutively for last six years.
+                    </p>
+                    <a href="https://www.the-maharajas.com/">Read More -></a>
+                </div>
+                <div class="tab">
+                    <div class="tab-img image1" ></div>
+                    <h3 class="heading">INTERNATIONAL PACKAGES</h3><br>
+                    <p class="para">Best deals in International Holiday packages, handpicked by RAILYATRA, for Thailand, Dubai, Sri Lanka, 
+                        Hong Kong, China, Macau, Bhutan, Nepal, U.K., Europe, USA, Australia etc. The packages are inclusive of sightseeing,
+                            meals, visa charges and overseas medical insurance to give you a hassle-free and memorable experience.
+                    </p>
+                    <a href="https://www.irctctourism.com/">Read More -></a>
+                </div>
+                <div class="tab">
+                    <div class="tab-img image2" ></div>
+                    <h3 class="heading">NATIONAL PACKAGES</h3><br>
+                    <p class="para">RailYatra offers Exclusive Rail tour packages with confirmed train tickets, 
+                        sight-seeing and meals for enchanting Nilgiri Mountains, Darjeeling, Kullu Manali, Kashmir, Gangtok or divine tours 
+                        of Mata Vaishno Devi, Rameswaram, Madurai, Shirdi, Tirupati etc. Holiday packages/ Land packages to these destinations 
+                        are also available.
+                    </p>
+                    <a href="https://www.irctctourism.com/">Read More -></a>
+                </div>
+            </section>
+            <section class="social">
+                <div class="logos">
+                    <p>Get Connected with us on Social networks</p>
+                </div>
+                <div class="logos1">
+                    <div class="logo-bar">
+                        <img src="facebook.png"></img>
+                    </div>
+                    <div class="logo-bar">
+                        <img src="Youtube.avif" ></img>
+                    </div>
+                    <div class="logo-bar">
+                        <img src="Instagram.webp" ></img>
+                    </div>
+                    <div class="logo-bar">
+                        <img src="Linkedin.png"></img>
+                    </div>
+                    <div class="logo-bar">
+                        <img src="telegram.webp"></img>
+                    </div>
+                    <div class="logo-bar">
+                        <img src="Pinintrest.png"></img>
+                    </div>
+                    <div class="logo-bar">
+                        <img src="twitter.png"></img>
+                    </div><br><br><br>
+                </div><br>
+            </section>
+        </section>
+        <footer class="section">
+            <div class="features">
+                <h2>Features</h2><br>
+                <div class="div"><p>Live Train Status</p>
+                <p>Train Timetable</p>
+                <p>Seat Availability</p>
+                <p>Train between Stations</p>
+                <p>Arrival Departure</p>
+                <p>Travel Advisory</p></div>
+            </div>
+            <div class="features">
+                <h2>Book with us</h2><br>
+                <div class="div"><p>Bus Tickets</p>
+                <p>Train Tickets</p>
+                <p>Food on Train</p></div>
+            </div>
+            <div class="features">
+                <h2>Info</h2><br>
+                <div class="div">
+                <p>Blog</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+                <p>FAQs</p>
+                <p>Terms of Use</p>
+                <p>Privacy</p>
+                <p>Partners</p>
+                <p>Advertise With Us</p>
+                <p>Work With Us</p>
+                <p>Media</p>
+                </div>
+            </div>
+            <div class="features">
+                <h2>Our Family</h2><br>
+                <div class="div">
+                <p>Inter City Smartbus</p>
+                </div>
+            </div>
+            <div class="features">
+                <div class="RailYatra01">
+                <h2>RAILYATRA</h2><br>
+                <div class="div">
+                <p>RailYatri is a one stop solution that furnishes an expanse of data-based travel discovery at your disposal. 
+                    So get connected for an inclusive experience of Smart Bus booking, Food on Train service, Train Ticket booking & journey 
+                    information.
+                </p>
+                </div>
+                </div><br><br><br>
+                <div class="app">
+                    <h2>Download App</h2><br>
+                    <div class="down">
+                        <img src="getitongoogleplay.png">
+                    </div>
+                    <div class="down">
+                        <img class="doll" src="downloadontheappstore.svg">
+                    </div>
+                    <div class="down">
+                        <img class='singer' src="appgallery.png">
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <section class="payment">
+            <div class="photo"></div>
+            <div class="copyright">Copyright Â© 2023 - www.RailYatra.co.in. All Rights Reserved
+                Designed and Hosted by<a href="https://cris.org.in/crisweb/design1/index.jsp">CRIS Compatible Browsers</a>
+            </div>
+        </section>
+    </body>
+</html> 
