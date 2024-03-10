@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.header {
+    background-color: rgb(81, 127, 125);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+
+.main-content {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 400px;
+}
+
+.services {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.service:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
